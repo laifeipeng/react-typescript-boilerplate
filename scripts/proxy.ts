@@ -10,7 +10,10 @@ interface ProxyTable {
 
 const proxyTable: ProxyTable = {
     // 示例配置
-    '/path_to_be_proxy': { target: 'http://target.domain.com', changeOrigin: true },
+    '/path_to_be_proxy': {
+        target: 'http://target.domain.com',
+        changeOrigin: true,
+    },
 };
 
 // 修饰链接的辅助函数, 修改颜色并添加下划线
